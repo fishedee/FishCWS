@@ -5,7 +5,7 @@ install:build
 	-sudo pkill fishcws
 	sudo cp lib/libNLPIR.so /usr/lib/libNLPIR.so
 	sudo cp bin/fishcws /usr/bin/fishcws
-	sudo rm /usr/local/fishcws -r
+	-sudo rm /usr/local/fishcws -r
 	sudo mkdir /usr/local/fishcws/
 	sudo cp data/* /usr/local/fishcws/ -r
 run:
